@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Web Page</title>
+    <style>
+        /* Đặt lại mặc định cho trình duyệt */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        /* Header (phần đầu) */
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 10px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        /* Thanh menu điều hướng */
+        nav {
+            background: #444;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background: #575757;
+            border-radius: 4px;
+        }
+
+        /* Nội dung chính */
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        main h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        main p {
+            color: #666;
+        }
+
+        /* Chân trang (footer) */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Phần đầu (header) -->
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+
+    <!-- Thanh menu điều hướng -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Phần nội dung chính -->
+    <main>
+        <h2>About Us</h2>
+        <p>This is a basic website created with HTML and CSS. You can customize it to suit your needs.</p>
+        <p>Feel free to explore the menu above and get to know more about us!</p>
+    </main>
+
+    <!-- Chân trang (footer) -->
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
